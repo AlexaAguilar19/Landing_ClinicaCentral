@@ -1,0 +1,510 @@
+/***********Header*************/
+.navbar-nav{
+    margin-top:4.6%;
+    margin-left:5rem;
+    font-size:1.2em;
+    font-family:'Cabin', sans-serif;
+}
+
+#imagenNav{
+    width:100px;
+    height:100px;
+    margin-left:5rem;
+    margin-top: -5%;
+}
+
+.colorgris{
+    color:#A4A4A4;
+    margin-top: -4%;
+    transition: color -1s linear -0.5s;
+}
+
+.colorgris:hover {
+    color:#04B4AE;
+}
+
+.colorgris2{
+    color:#A4A4A4;
+}
+
+.colorgris2:hover {
+    color:#045FB4;
+}
+
+.nav-item{
+    margin:10px;
+}
+/*********BODY************/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;   
+} 
+
+/*********MAIN*************/
+main{
+    width: 100%;
+    margin:1px;
+    height:auto;   
+    
+}
+
+/**************Index***************/
+.contene1{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-bottom:50px; 
+    margin-top: 5rem;
+}
+
+.caja1{
+    width:100%;
+    height:auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.imaslide{
+    width:100%;
+}
+
+#Subraya1{
+    font-size:1em;
+}
+
+#Subraya2{
+    font-size:1.2em;
+}
+
+.content{
+    width:20rem;
+}
+
+#Subraya3{
+    font-size:1.2em;
+    margin-top:1rem;
+    margin-left:1rem;
+}
+
+#Subraya4{
+    font-size:1.3em;
+    margin-left:1rem;
+}
+
+#Subraya5{
+    font-size:1.3em;
+    margin-left:1rem;
+}
+
+.textcita{
+    text-align: center;   
+    font-size:1.1em; 
+}
+
+#conteinfo{
+    margin-left:0rem;
+    width:100%;
+}
+
+.tituclini{
+    font-size:2.5em;
+}
+
+.expandiranunclini{
+    margin-left:22rem;
+    text-align: center;
+    transition: color -1s linear -0.5s;
+    border-radius: 60px; 
+    background: #FFFFFF;
+}
+
+
+.expandiranunclini:hover{
+    background: #04B4AE;
+}
+
+.tituenun{
+    font-size:1.3vw;
+}
+
+.contenecolum{
+    width:71%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.imainfo{
+    width:30%;
+    height:20%;
+}
+
+#conteespeciali{
+    width:95%;
+    margin-left:2rem;
+}
+
+.nomespeci{
+    text-align: center;
+}
+
+#contecitas{
+    width: 100%;
+    height: 100%;
+    margin-top:8rem;
+}
+/******************Quienes Somos*****************/
+.caja2{
+    width:80%;
+    height:auto;
+    margin:0 auto;
+    margin-top:3rem;
+}
+
+/***********Emergencias,Hospitalizacion,CuidadosInten,Quirofano y Farmacia***********************/
+.imaback{
+    margin-left:7rem;
+}
+
+.conttrans{
+   width:100rem;
+   margin-top:-3rem;
+}
+
+.contenidocontene{
+    margin-top:-65rem;
+    border: none;
+}
+
+#imaglobal{
+    height:30rem;
+}
+
+/****************Maternidad******************/
+.conttrans3{
+    width:100rem;
+    margin-top:0rem;
+}
+
+.imaback3{
+    height:152rem;
+}
+
+#conteneprinbebe{
+    width:80%;
+    height:20%
+}
+
+#contebebe{
+    width:40%;
+}
+
+#imabebe{
+    width:70%;
+    height:90%;
+    margin-top:1rem;
+    margin-left:2rem;
+}
+
+/**************BSL***********************/
+.conttrans4{
+    width:100rem;
+    margin-top:0rem;
+}
+
+.imaback4{
+    height:90rem;
+    margin-left:1rem;
+    
+}
+/*****************Responsive********************/
+
+@media Screen and (max-width:1000px){
+
+    .navbar-nav{
+        margin-top:0;
+        margin-left:0rem;
+    }
+    
+    #imagenNav{
+        margin-left:0rem;       
+    }
+
+    .mover{
+        width:auto;
+    }
+
+    div#mover2{
+        width:100%;
+        margin-left:0%;
+    }
+
+    .centro{
+        width:103.4%;
+        text-align:center;
+    }
+
+    .mover3{
+        margin-left:-1rem;
+    }
+
+    #Subraya3{
+        margin-left:-1rem;
+    }
+
+    .salto{
+        display: block;       
+    }
+
+    .content{
+        width:auto;
+        height:auto;    
+    }
+   
+    #conteinfo{
+        margin:0 auto;
+        width:auto;
+        height:auto;  
+    }
+
+    .uk-subnav{
+        width:60%;
+        margin-left:30%;
+    }
+
+    .tituenun{
+        font-size:21px;
+    }
+
+    
+    .expandiranunclini{
+        margin-left:1%;
+    }
+
+    .contenecolum{
+        width:95%;
+        margin: 0 auto;
+        text-align: justify;
+    }
+
+    #conteespeciali{
+        width:100%;
+        margin-left:0rem;
+    }
+
+    .nomespeci{
+        margin-left:-1.90rem;
+        font-size:19px;
+        text-align: center;     
+    }
+
+    .caja3{
+        width:100%;
+        height:auto;
+        margin: 0 auto;
+        
+    }
+/*---------Emergencias, Quirofanos----------------------------*/
+    .conttrans{
+        margin-left:0rem;
+        width:44rem;
+        height:70rem;
+        border:none;
+        margin-top:0rem;
+    }
+
+    .imaback{
+        margin-left:0.2rem;
+        margin-top:20rem;
+        width:100rem;
+        height:40rem;
+    }
+    
+/*---Hospitalizacion,Cuidados Intesi---------------------*/ 
+    .conttrans2{
+        margin-left:0rem;
+        width:44rem;
+        height:auto;
+        border: none;
+        margin-top:0rem;
+    }
+
+    .imaback2{
+        margin-left:0.2rem;
+        margin-top:0rem;
+        width:100rem;
+        height:30rem;
+    }
+    
+    #imaglobal{
+        height:auto;
+    }
+
+/*-----------Maternidad--------------------*/
+.conttrans3{
+    margin-left:0rem;
+    width:44rem;
+    height:242rem;
+    border:none;
+    margin-top:0rem;
+}
+
+.imaback3{
+    margin-left:0.2rem;
+    margin-top:45rem;
+    width:100rem;
+    height:40rem;
+}
+
+#imabebe{
+    width:100rem;
+    height:20rem;
+    margin-top:-1rem;
+    margin-left:0rem;
+}
+
+#conteneprinbebe{
+    width:100%;
+}
+
+#contebebe{
+    width:100%;
+}
+
+/*---------BSL------------*/
+.conttrans4{
+    margin-left:0rem;
+    width:44rem;
+    height:120rem;
+    border:none;
+    margin-top:0rem;
+}
+
+.imaback4{
+    margin-left:0.2rem;
+    margin-top:48rem;
+    width:100rem;
+    height:40rem;
+}
+
+/*-----Farmacia--------------*/
+.conttrans5{
+    margin-left:0rem;
+    width:44rem;
+    height:40rem;
+    border: none;
+    margin-top:0rem;
+}
+
+.imaback5{
+    margin-left:0.2rem;
+    margin-top:0rem;
+    width:100rem;
+    height:40rem;
+}
+}
+/************************Footer*************************/
+footer{
+    align-self: flex-end;
+    line-height: -1;
+    width: 100%;
+}
+
+#nobordes{
+    border: none;
+}
+
+img.icoredessocia{
+    width:2rem;
+}
+/**************Colores***************/
+.colornegrooscuro{
+    color: black;
+}
+
+#colornegroclaro{
+  color:#2E2E2E;
+}
+
+.colorgris{
+    color:#A4A4A4;
+}
+
+.colorazul{
+    color:#045FB4;
+}
+
+.colorazul2{
+    background: #045FB4;
+}
+
+.colorgrisoscuro{
+    color:#848484;
+}
+
+.colorverdeaguaoscuro{
+    background: #04B4AE;
+}
+
+.colorverdeaguaoscuro3{
+    color: #04B4AE;
+}
+
+.colorverdeaguaoscuro2{
+    color: #000000;
+}
+
+.colorverdeaguaoscuro2:hover{
+    color: #04B4AE;
+}
+
+.colorblanco{
+    color:#FFFFFF;
+}
+
+.colorblanco2{
+    background:#FFFFFF;
+}
+
+.colorgrisclaro{
+    background:#E6E6E6;
+}
+
+.colorgrisoscuro2{
+    color:#6E6E6E;
+}
+
+/***************Fuentes**************/
+.letra1{
+    font-family:'Cabin', sans-serif;
+}
+
+.letra2{
+    font-family:'Montserrat', sans-serif;
+}
+
+/**************Tope********************/
+.tope{
+    margin-top:8rem;
+}
+/************Tamaños*************************/
+.textrecomen{
+    font-size:1.2em;
+}
+
+.texpeque{
+    font-size:1.1em;
+}
+
+
+
+     
+
+
